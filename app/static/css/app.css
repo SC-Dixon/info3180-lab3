@@ -1,3 +1,31 @@
 body {
     padding-top: 5rem;
 }
+
+.flashes{
+    color: red;
+    background-color: bisque;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border-style: dotted;
+    border-width: 1px;
+    padding: 5px;
+    width: fit-content;
+}
+
+.form-control{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.form-group p{
+    color: gray;
+    font-size: smaller;
+    margin-top: -5px;
+}
+
+.form-label:after {
+    color: red;
+    content: " (Required)";
+}
+
